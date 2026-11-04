@@ -919,7 +919,7 @@ footer {
     }
 }
 
-
+.carousel-caption { padding: 30px 10px 20px !important;}
 .carousel-caption h5 {
     margin-bottom: 0px !important;
 }
