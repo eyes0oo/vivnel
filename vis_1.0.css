@@ -894,20 +894,20 @@ footer {
 
     /* === КАРУСЕЛЬ СКРИНШОТОВ === */
     .carousel-section1 {
-        width: 100% !important;
-        max-width: 100% !important;
+        width: 50% !important;
+        max-width: 50% !important;
         margin-top: 20px !important;
     }
 
     .carousel-section1 .carousel {
-        width: 100% !important;
-        max-width: 100% !important;
+        width: 50% !important;
+        max-width: 50% !important;
         height: 200px !important;
     }
 
     .carousel-section1 .carousel-inner img {
-        width: 100% !important;
-        height: 100% !important;
+        width: 50% !important;
+        height: 50% !important;
         object-fit: cover !important;
     }
 
