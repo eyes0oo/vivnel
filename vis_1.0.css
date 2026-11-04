@@ -777,128 +777,148 @@ footer {
    📱 АДАПТИВНОСТЬ ДЛЯ ТЕЛЕФОНОВ И ПЛАНШЕТОВ
    (Применяется только если ширина экрана < 768px)
    ========================================= */
+/* ========================================
+   📱 АДАПТИВНОСТЬ - ЕДИНЫЙ БЛОК ДЛЯ ТЕЛЕФОНОВ
+   ======================================== */
 
 @media (max-width: 768px) {
     
-    /* 1. ГЛАВНЫЙ КОНТЕЙНЕР: Убираем фиксированную ширину и рамки по бокам */
-    #container {
-        width: 100% !important;       /* Растягиваем на всю ширину */
-        max-width: 100% !important;
-        margin: 0 !important;         /* Убираем внешние отступы */
-        padding: 15px !important;     /* Оставляем небольшие внутренние отступы */
-        border-left: none !important; /* Убираем левую рамку */
-        border-right: none !important;/* Убираем правую рамку */
-        border-top: 4px solid #C197C5;    /* Оставляем верхнюю рамку для красоты */
-        border-bottom: 4px solid #C197C5; /* Оставляем нижнюю рамку */
-        box-sizing: border-box;
+    /* Запрет горизонтальной прокрутки */
+    body, html {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
     }
 
-    /* 2. НАВИГАЦИЯ (МЕНЮ): Делаем элементы компактнее */
+    /* Контейнер на всю ширину экрана */
+    #container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        border-left: none !important;
+        border-right: none !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Все элементы внутри контейнера не вылезают */
+    #container * {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Навигация */
     .navbar-brand {
-        font-size: 20px !important;   /* Уменьшаем логотип/название */
+        font-size: 18px !important;
     }
     
     .btn-login, .btn-register {
-        padding: 4px 10px !important; /* Уменьшаем кнопки входа */
-        font-size: 13px !important;
+        padding: 4px 10px !important;
+        font-size: 12px !important;
     }
 
-    /* 3. ЗАГОЛОВКИ: Центрируем и уменьшаем текст */
+    /* Заголовки */
     .section-title, .sections-title {
+        font-size: 20px !important;
         text-align: center !important;
         margin-left: 0 !important;
-        font-size: 24px !important;   /* Шрифт поменьше */
     }
 
-    /* 4. КАРУСЕЛЬ НА ГЛАВНОЙ: Картинки не должны быть слишком высокими */
+    /* Карусель на главной */
     .carousel-section .carousel-inner img {
-        height: 250px !important;     /* Фиксируем высоту для телефона */
-    }
-    
-    .news-section {
-        margin-top: 20px !important;  /* Добавляем отступ сверху для блока новостей */
-        width: 100% !important;       /* Новости на всю ширину */
+        height: 200px !important;
     }
 
-    /* 5. КАРТОЧКИ НОВЕЛЛ (КАТАЛОГ): Выстраиваем в одну колонку */
+    /* Новости */
+    .news-section {
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+    /* Карточки новелл в каталоге */
     .card-group {
-        display: flex;
-        flex-direction: column;       /* Вертикальный список */
-        align-items: center;          /* Центрируем карточки */
-        gap: 20px;
+        flex-direction: column !important;
+        align-items: center !important;
     }
 
     .card-group > a {
-        width: 100% !important;       /* Карточка на всю ширину экрана */
-        max-width: 350px !important;  /* Но не шире 350px, чтобы не было гигантской */
+        width: 100% !important;
+        max-width: 350px !important;
     }
 
     .cartochki-image {
-        height: 300px !important;     /* Высота картинки на телефоне */
+        height: 280px !important;
     }
 
-    /* 6. ПОИСК И ФИЛЬТРЫ: Ставим элементы друг под другом */
+    /* Поиск и фильтры */
     .input-group {
-        flex-wrap: wrap !important;   /* Разрешаем перенос элементов */
-        gap: 10px;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
     }
 
     .input-group .dropdown-toggle,
     .input-group .form-control,
     .input-group .btn {
-        width: 100% !important;       /* Каждое поле на всю ширину */
-        border-radius: 5px !important;/* Возвращаем скругление углов */
+        width: 100% !important;
+        border-radius: 5px !important;
     }
 
-    /* 7. СТРАНИЦА НОВЕЛЛЫ (cartchka noveli): Адаптируем описание и скриншоты */
-    #content-area {
-        padding: 0 !important;
-    }
-
+    /* === СТРАНИЦА НОВЕЛЛЫ === */
+    
+    /* Обложка */
     .cover-img {
-        height: auto !important;      /* Высота обложки авто */
-        max-height: 300px !important; /* Но не больше 300px */
-        border-width: 3px !important; /* Тоньше рамка */
+        height: 220px !important;
+        border-width: 3px !important;
     }
 
+    /* Блок с описанием */
     .info {
-        padding: 15px !important;     /* Меньше отступов внутри блока описания */
-    }
-
-    #n-title {
-        font-size: 26px !important;   /* Заголовок новеллы меньше */
-    }
-
-    .desc {
-        font-size: 14px !important;   /* Текст сюжета чуть мельче */
         padding: 15px !important;
     }
 
+    #n-title {
+        font-size: 24px !important;
+    }
+
+    .desc {
+        font-size: 14px !important;
+        padding: 15px !important;
+    }
+
+    /* Кнопка "Назад" */
     .back-btn {
-        display: block !important;    /* Кнопка "Назад" блочная */
-        width: 100% !important;       /* На всю ширину (удобно нажимать пальцем) */
+        display: block !important;
+        width: 100% !important;
         text-align: center !important;
         padding: 12px !important;
     }
 
-    /* Карусель скриншотов на странице новеллы */
-    .carousel-section1 .carousel {
-        height: 250px !important;     /* Фиксированная высота карусели */
-    }
-    
-    .carousel-section1 .carousel-inner img {
-        height: 100% !important;
-        object-fit: cover !important; /* Заполняет блок, обрезая лишнее */
+    /* === КАРУСЕЛЬ СКРИНШОТОВ === */
+    .carousel-section1 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 20px !important;
     }
 
-    /* 8. ФУТЕР: Элементы друг под другом по центру */
+    .carousel-section1 .carousel {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 200px !important;
+    }
+
+    .carousel-section1 .carousel-inner img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    /* Футер */
     .footer-content {
         flex-direction: column !important;
         text-align: center !important;
-        gap: 10px;
+        gap: 10px !important;
     }
-    
+
     .footer-left .separator {
-        display: none !important;     /* Скрываем разделитель | */
+        display: none !important;
     }
 }
