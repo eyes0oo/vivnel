@@ -912,6 +912,7 @@ footer {
     
     .carousel-section1 .carousel-inner img,
     .frame-img {
+ aspect-ratio: 16 / 9 !important;
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
@@ -927,6 +928,7 @@ footer {
     .carousel-section1 .carousel-inner img {
         width: 100% !important;
         height: 100% !important;
+        border: 3px solid #C197C5 !important;
         object-fit: cover !important; /* Заполняет весь блок */
     }
     
