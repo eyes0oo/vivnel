@@ -931,12 +931,10 @@ footer {
     }
     
     /* Обложка новеллы сверху */
-    .cover-img {
-        width: 100% !important;
-        height: 200px !important;
-        object-fit: cover !important;
+  .cover-img {
+        height: 220px !important;
+        border-width: 3px !important;
     }
-    
     /* Карточки в каталоге */
     .card-group > a {
         width: 100% !important;
