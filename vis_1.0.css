@@ -899,7 +899,8 @@ footer {
     
     /* КАРУСЕЛЬ СКРИНШОТОВ - делаем нормальной */
     .carousel-section1 {
-        width: 100% !important;
+        aspect-ratio: 16 / 9 !important;
+               width: 100% !important;
         max-width: 100% !important;
         margin-top: 20px !important;
     }
@@ -912,7 +913,7 @@ footer {
     
     .carousel-section1 .carousel-inner img,
     .frame-img {
- aspect-ratio: 16 / 9 !important;
+ 
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
@@ -920,7 +921,7 @@ footer {
 }
 
 .carousel-caption { padding: 30px 10px 20px !important;
-                   margin-top: 20px  !important;
+                   margin-top: 600px  !important;
 }
 .carousel-caption h5 {
     margin-bottom: 0px !important;
