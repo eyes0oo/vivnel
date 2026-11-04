@@ -830,17 +830,8 @@ footer {
     /* Подпись карусели */
     .carousel-caption {
         padding: 15px 10px !important;
-        margin-top: 0 !important;
+        margin-bottom: -50px !important;
         background: linear-gradient(to top, rgba(25, 61, 61, 0.95) 0%, transparent 100%) !important;
-    }
-
-    .carousel-caption h5 {
-        font-size: 18px !important;
-        margin-bottom: 5px !important;
-    }
-
-    .carousel-caption p {
-        font-size: 13px !important;
     }
 
     /* === ПОИСК И ФИЛЬТРЫ === */
