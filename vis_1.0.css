@@ -917,6 +917,13 @@ footer {
         object-fit: cover !important;
     }
 }
+
+
+.carousel-caption h5 {
+    margin-bottom: 0px;
+}
+
+
     .carousel-section1 .carousel-inner img {
         width: 100% !important;
         height: 100% !important;
