@@ -159,23 +159,18 @@ body {
     width: 100%;
 }
 
-
-.carousel-section1 {
-    flex: 0 0 65%;
-    max-width: 65%;
-}
-
+/* На ПК */
 .carousel-section1 .carousel {
-    width: 970px;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 3px solid #C197C5;
+    width: 100% !important;
+    height: 450px !important; /* ОДИНАКОВАЯ высота для всех скриншотов */
+    background-color: #000; /* Чёрный фон, если картинка не заполняет блок */
+    overflow: hidden !important;
 }
 
 .carousel-section1 .carousel-inner img {
-    height: 500px; 
-    object-fit: cover;
-    width: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Обрезает лишнее, но заполняет весь блок */
 }
 
 .news-section {
@@ -861,63 +856,82 @@ footer {
     }
 
     /* === СТРАНИЦА НОВЕЛЛЫ === */
+    /* Запрет горизонтальной прокрутки */
+  
     
-    /* Обложка */
-    .cover-img {
-        height: 220px !important;
-        border-width: 3px !important;
+    /* ИСПРАВЛЕНИЕ ТЕКСТА - убираем justify */
+    .desc {
+        text-align: left !important; /* Было justify - это растягивало слова */
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+        padding: 15px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
-
+    
     /* Блок с описанием */
     .info {
+        width: 100% !important;
         padding: 15px !important;
+        box-sizing: border-box !important;
     }
-
+    
+    /* Заголовок новеллы */
     #n-title {
         font-size: 24px !important;
-    }
-
-    .desc {
-        font-size: 14px !important;
-        padding: 15px !important;
-    }
-
-    /* Кнопка "Назад" */
-    .back-btn {
-        display: block !important;
-        width: 100% !important;
         text-align: center !important;
-        padding: 12px !important;
     }
-
-    /* === КАРУСЕЛЬ СКРИНШОТОВ === */
-    * Карусель скриншотов на странице новеллы */
-.carousel-section1 {
-    width: 100%;
-    margin-top: 30px;
-}
-
-.carousel-section1 .carousel {
-    width: 100%;
-    height: 450px; /* Фиксированная высота на ПК */
-    border-radius: 10px;
-    overflow: hidden;
-    border: 3px solid #C197C5;
-}
-
-.carousel-section1 .carousel-inner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Заполняет весь блок без черных полос */
-}
-
+    
+    /* Кнопка "Вернуться" - нормальный размер */
+    .back-btn {
+        display: inline-block !important;
+        width: auto !important;
+        max-width: 80% !important;
+        text-align: center !important;
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        margin: 20px auto !important;
+    }
+    
+    /* КАРУСЕЛЬ СКРИНШОТОВ - делаем нормальной */
+    .carousel-section1 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 20px !important;
+    }
+    
+    .carousel-section1 .carousel {
+        height: 220px !important; /* Меньше на телефоне */
+    }
+    .carousel-section1 .carousel-inner img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important; /* Заполняет весь блок */
+    }
+    
+    /* Обложка новеллы сверху */
+    .cover-img {
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover !important;
+    }
+    
+    /* Карточки в каталоге */
+    .card-group > a {
+        width: 100% !important;
+        max-width: 350px !important;
+    }
+    
+    .cartochki-image {
+        height: 280px !important;
+    }
+    
     /* Футер */
     .footer-content {
         flex-direction: column !important;
         text-align: center !important;
-        gap: 10px !important;
     }
-
+    
     .footer-left .separator {
         display: none !important;
     }
