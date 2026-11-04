@@ -777,9 +777,7 @@ footer {
    📱 АДАПТИВНОСТЬ ДЛЯ ТЕЛЕФОНОВ И ПЛАНШЕТОВ
    (Применяется только если ширина экрана < 768px)
    ========================================= */
-/* ========================================
-   📱 АДАПТИВНОСТЬ - ЕДИНЫЙ БЛОК ДЛЯ ТЕЛЕФОНОВ
-   ======================================== */
+
 
 @media (max-width: 768px) {
     
@@ -901,8 +899,8 @@ footer {
 
     .carousel-section1 .carousel {
         width: 50% !important;
-        max-width: 20% !important;
-        height: 200px !important;
+        max-width: 50% !important;
+        height: 350px !important;
     }
 
     .carousel-section1 .carousel-inner img {
