@@ -163,7 +163,7 @@ body {
 .carousel-section1 .carousel {
     width: 100% !important;
     height: 450px !important; /* ОДИНАКОВАЯ высота для всех скриншотов */
-    background-color: #000; /* Чёрный фон, если картинка не заполняет блок */
+    border: 3px solid #C197C5 ;/* Чёрный фон, если картинка не заполняет блок */
     overflow: hidden !important;
 }
 
@@ -900,9 +900,19 @@ footer {
         margin-top: 20px !important;
     }
     
+  /* Карусель скриншотов на телефоне */
     .carousel-section1 .carousel {
-        height: 220px !important; /* Меньше на телефоне */
+        height: 220px !important;
+        background-color: #000 !important;
     }
+    
+    .carousel-section1 .carousel-inner img,
+    .frame-img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}
     .carousel-section1 .carousel-inner img {
         width: 100% !important;
         height: 100% !important;
