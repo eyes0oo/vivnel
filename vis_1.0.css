@@ -937,11 +937,10 @@ footer {
         background-color: transparent !important;
     }
 
-    .carousel-section1 .carousel-inner img,
-    .frame-img {
+    .carousel-section1 .carousel-inner img {
         width: 100% !important;
-        height: auto !important;
-        max-height: 1000px !important;
+        height: 60% !important;
+        max-height: 300px !important;
         object-fit: contain !important;
         background-color: transparent !important;
     }
