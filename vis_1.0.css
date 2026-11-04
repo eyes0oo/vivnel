@@ -900,12 +900,12 @@ footer {
     .carousel-section1 .carousel {
         width: 50% !important;
         max-width: 50% !important;
-        height: 350px !important;
+        height: 75% !important;
     }
 
     .carousel-section1 .carousel-inner img {
         width: 100% !important;
-        height: 300px !important;
+        height: 100% !important;
         object-fit: cover !important;
     }
 
