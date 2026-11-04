@@ -941,7 +941,7 @@ footer {
     .frame-img {
         width: 100% !important;
         height: auto !important;
-        max-height: 300px !important;
+        max-height: 1000px !important;
         object-fit: contain !important;
         background-color: transparent !important;
     }
