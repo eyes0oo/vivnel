@@ -939,8 +939,8 @@ footer {
 
     .carousel-section1 .carousel-inner img {
         width: 100% !important;
-        height: 60% !important;
-        max-height: 300px !important;
+        height: 100% !important;
+        max-height: 450px !important;
         object-fit: contain !important;
         background-color: transparent !important;
     }
