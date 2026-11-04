@@ -920,27 +920,19 @@ footer {
     }
 }
 
-.carousel-caption { padding: 30px 10px 20px !important;
-                   margin-top: 600px  !important;
-}
-.carousel-caption h5 {
-    margin-bottom: 0px !important;
-}
 
-
-    .carousel-section1 .carousel-inner img {
+.carousel-section1 .carousel-inner img,
+    .frame-img {
         width: 100% !important;
         height: 100% !important;
-        border: 3px solid #C197C5 !important;
-        object-fit: cover !important; /* Заполняет весь блок */
+        object-fit: cover !important;
     }
     
-    /* Обложка новеллы сверху */
-  .cover-img {
+    .cover-img {
         height: 220px !important;
         border-width: 3px !important;
     }
-    /* Карточки в каталоге */
+    
     .card-group > a {
         width: 100% !important;
         max-width: 350px !important;
@@ -950,7 +942,6 @@ footer {
         height: 280px !important;
     }
     
-    /* Футер */
     .footer-content {
         flex-direction: column !important;
         text-align: center !important;
@@ -958,5 +949,26 @@ footer {
     
     .footer-left .separator {
         display: none !important;
+    }
+ 
+    .footer-left .separator {
+        display: none !important;
+    }
+    
+    /* Подпись карусели на телефоне */
+    .carousel-caption {
+               position: absolute !important;
+        padding: 15px 10px !important;
+        margin-top: 0 !important;
+        background: linear-gradient(to top, rgba(25, 61, 61, 0.95) 0%, transparent 100%) !important;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 18px !important;
+        margin-bottom: 5px !important;
+    }
+    
+    .carousel-caption p {
+        font-size: 13px !important;
     }
 }
