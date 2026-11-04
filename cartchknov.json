@@ -1,0 +1,18 @@
+[
+  {
+    "id": "zato",
+    "title": "Z.A.T.O.",
+    "description": "История о девушке, которая...",
+    "genre": "Драма, Мистика",
+    "year": 2023,
+    "cover": "1dBIos.png"
+  },
+  {
+    "id": "meat-girl",
+    "title": "Meat Girl",
+    "description": "Сюрреалистичная новелла...",
+    "genre": "Хоррор, Сюр",
+    "year": 2024,
+    "cover": "dFjemd.png"
+  }
+]

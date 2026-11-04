@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivnel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vis_1.0.css">
+     <link rel="icon" href="icon.png" type="image/png">
+
+</head>
+<body style="background-image: url('bg.png'); 
+    background-repeat: no-repeat;            
+    background-size: cover; 
+    background-position: center center; ">
+ 
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #AFFF3E;">
+  <div class="container-fluid">
+    <img src="logo.png" style="width: 55px; height: 55px ; margin-right: 0px; ">
+    <a class="navbar-brand" href="visnel_1.0.html">Vivnel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a class="nav-link active" aria-current="page" href="visnel_1.0.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        
+        
+        </li>
+      </ul>
+      <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-login">Вход</a>
+                <a href="register.html" class="btn btn-register">Регистрация</a>
+            </div>
+    </div>
+  </div>
+</nav>
+
+<div id="container">
+  
+    <div class="container" id="content-area">
+        <img id="n-cover" class="cover-img" src="" alt="Обложка">
+        <div class="info">
+            <h1 id="n-title">Загрузка...</h1>
+            <p class="meta">
+                <span id="n-genre"></span> | <span id="n-year"></span> | <span id="n-lang"></span>
+                
+            </p>
+            <p class="desc" id="n-desc"></p>
+            <a href="catalog.html" class="back-btn">← Вернуться в каталог</a>
+        </div>
+   <div class="carousel-section1" style="margin-left: 0px; margin-top: 60px ;">
+            <div id="carouselMain" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+           
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                    
+                 
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="n-frame" class="frame-img" src="" alt="Скрины">
+                         <div class="carousel-caption">
+                           
+                        </div>
+                      
+                    </div>
+                    <div class="carousel-item">
+                        <img id="n-frame1" class="frame-img" src="" alt="Скрины">
+                        <div class="carousel-caption">
+                           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                       <img id="n-frame2" class="frame-img" src="" alt="Скрины">
+                        <div class="carousel-caption">
+                           
+                        </div>
+                    
+               
+                        </div>
+                    </div>
+                             
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+              
+              </div>
+
+   </div>
+</div>
+ </div>
+ <script>
+      
+        const novels = [
+            {
+                "id": "zato",
+                "title": "Z.A.T.O.",
+                "genre": "Драма, Мистика",
+                "year": 2023,
+                "cover": "картинке нн (моих сыгранных игр)/head/zato hed.png",
+                "description": "СССР, 1986 год. Когда в закрытом городе Воркута-5 пропадает Ира Грачевская, кажется, что это никого не волнует — кроме тихой изгоя Аси Шубиной. Раскройте тайну исчезновения Иры, отправьте свой радиосигнал во Вселенную и узнайте, почему за окном пролетает птица.",
+                "frame" : "картинке нн (моих сыгранных игр)/frames1/zato.png" ,
+                "frame1" : "картинке нн (моих сыгранных игр)/frames1/zato1.png" ,
+               "frame2" : "картинке нн (моих сыгранных игр)/frames1/zato2.png" ,
+              },
+            {
+                "id": "meat-girl",
+                "title": "Meat Girl",
+                "genre": "Хоррор, Сюрреализм",
+                "year": 2024,
+                "cover": "картинке нн (моих сыгранных игр)/head/header.jpg",
+                "description": "Сюжет: Вивиан уже довольно давно не видела свою соседку по комнате. Прошли месяцы разлуки, наступила зима. Вивиан терзает чувство вины. Ей страшно. Пришло время отправиться в горы. Добравшись туда на автобусе, она не находит никаких следов своей соседки — лишь девушку, которая называет себя ангелом… и огромное количество мяса..",
+                 "frame" : "картинке нн (моих сыгранных игр)/frames1/meat.png" ,
+                 "frame1" : "картинке нн (моих сыгранных игр)/frames1/meat1.png" ,
+               "frame2" : "картинке нн (моих сыгранных игр)/frames1/meat2.png" ,
+              },
+         {      "id": "Mistrick",
+                "title": "Mistrick",
+                "genre": "Приключение, Хоррор, Сюрреализм, Пазлы, РПГ",
+                "year": 2022,
+                "cover": "картинке нн (моих сыгранных игр)/head/misrk head.png",
+                "description": "Сюжет: Вы играете за Джона Бланка — самовлюбленного заключенного, который оказывается в ловушке в странном карманном измерении. Вскоре после прибытия его встречает бывший сокамерник — казненный серийный убийца Чейз Колт. Чейз утверждает, что Джон уже мертв, но это оказывается лишь злонамеренной ложью, призванной удержать Джона в этом мире. Удастся ли ему найти способ выбраться, или он погибнет, став жертвой многочисленных козней этого зловещего места?.",
+               "frame" : "картинке нн (моих сыгранных игр)/frames1/mistick1 (3).png" ,
+               "frame1" : "картинке нн (моих сыгранных игр)/frames1/mistick1 (1).png" ,
+               "frame2" : "картинке нн (моих сыгранных игр)/frames1/mistick1 (2).png" ,
+               "lang" : "Есть перевод на Русский язык!"
+              },
+                 
+                { "id": "WitchsBound",
+                "title": "Witch's Bound",
+                "genre": "Триллер, Романтика, Симулятор Свидания",
+                "year": 2025,
+                "cover": "картинке нн (моих сыгранных игр)/head/witch head.png",
+                "description": "Описание: Антагонист? Я буду носить это звание с гордостью — если только это означает, что я смогу называть тебя своей. В конце концов, именно ты сделала меня таким.",
+                "frame" : "картинке нн (моих сыгранных игр)/frames1/witch.png" ,
+                "frame1" : "картинке нн (моих сыгранных игр)/frames1/witch1.png" ,
+                "frame2" : "картинке нн (моих сыгранных игр)/frames1/witch2.png" ,
+                "lang" : "Есть перевод на Русский язык!"
+              },
+                
+                
+                { "id": "SVSATO",
+                "title": "Supervisor Sato! VNL",
+                "genre": "Триллер, Психологический хоррор, ",
+                "year": 2026,
+                "cover": "картинке нн (моих сыгранных игр)/head/super head.png",
+                "description": "Описание: «SupervisorSato!» — это кинетическая визуальная новелла, повествующая о Саори Сато, японской старшекласснице, которую нанимают на должность нового куратора в элитную школу для девочек «Саяма» — учебное заведение, полное тайн и загадок.",
+              "frame" : "картинке нн (моих сыгранных игр)/frames1/super.png" ,
+              "frame1" : "картинке нн (моих сыгранных игр)/frames1/super1.png" ,
+              "frame2" : "картинке нн (моих сыгранных игр)/frames1/super2.png" ,
+              },
+                
+                { "id": "FreakCircus",
+                "title": "Freak Circus",
+                "genre": "Хоррор, Романтика",
+                "year": 2025,
+                "cover": "картинке нн (моих сыгранных игр)/head/frk head.png",
+                "description": "Описание: В город прибыл «Цирк ужасов». Раскройте его тайны и столкнитесь с кошмарами, которые он скрывает. Вашими проводниками станут Пьеро — молчаливый яндере — или Арлекин, его соблазнительный соперник.Не дайте ввести себя в заблуждение их улыбками: они совсем не те, кем кажутся. Вы работаете в кафе, и однажды по пути на работу судьба сводит вас с Пьеро. С этого момента начинается его одержимость. Но он не одинок: его соперник по сцене тоже вступает в игру, превращая этот извращенный танец в опасное состязание… и всё это — ради вас..",   
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/ciiircus.jpg", 
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/circus.jpg" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/frecircus.jpg" ,
+                 },
+                
+                { "id":"PinePoint",
+                  "title": "Pine Point: Insomniac",
+                  "genre" : "Сюрреализм, Повседневность",
+                  "year": 2024,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/pine point.png",
+                  "description" : "Описание: «Пайн-Пойнт: Бессонница» (Pine Point: Insomniac) — короткая сюрреалистичная визуальная новелла в жанре «повседневность». В центре сюжета — Нил, бездельник, страдающий от хронического недосыпа, который пытается пережить рабочий день в компании своего лучшего друга Дмитрия.",
+                "frame" : "картинке нн (моих сыгранных игр)/frames1/pine point1 (1).png" ,
+                "frame1" : "картинке нн (моих сыгранных игр)/frames1/pine point1 (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/pine point2.png" ,
+                },
+
+                 { "id":"KYC",
+                  "title": "Keeping you close",
+                  "genre" : "Психологический Хоррор",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/keep.png",
+                  "description" : "Описание: Они были твоим самым близким другом. Они любили тебя — правда, любили. Любили настолько, что готовы были причинить боль тем, кто был дорог тебе, — лишь бы удержать тебя при себе. Поэтому ты запер их в ржавой собачьей клетке у себя в подвале.",
+                   "frame" : "картинке нн (моих сыгранных игр)/frames1/keep.png" ,
+                   "frame1" : "картинке нн (моих сыгранных игр)/frames1/keepp.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/keeppp1.png" ,
+                },
+
+                  { "id":"hikeback",
+                  "title": "HIKEBACK",
+                  "genre" : "Психологический хоррор, Хоррор",
+                  "year": 2021,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/hike.png",
+                  "description" : "HIKEBACK — это короткая визуальная новелла о доверии, самосаботаже и бесконечных циклах. Вы играете за водителя, который поздно вечером едет по горной дороге и замечает впереди голосующего автостопщика. От того, как вы поступите дальше, зависит не только судьба вас и незнакомца с широко раскрытыми глазами, которого вы подвезли, но и ваша общая судьба в нескольких плоскостях существования. В этом цикле, который, кажется, будет мучить вас БЕСКОНЕЧНО, сколько времени вам понадобится, чтобы наконец достичь ПОРОГА? Сможете ли вы найти лучшую концовку, к которой стремитесь? Или поддадитесь тому, что уготовила вам судьба?",
+                   "frame" : "картинке нн (моих сыгранных игр)/frames1/hike (3).png" ,
+                   "frame1" : "картинке нн (моих сыгранных игр)/frames1/hike (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/hike (1).png" ,
+                },
+
+               { "id":"Line 88",
+                  "title": "Line 88",
+                  "genre" : "Мистика, Хоррор",
+                  "year": 2023,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/line.png",
+                  "description" : "Line 88 — это короткий кинетический роман с элементами ходьбы. Прохождение занимает около 20 минут и включает в себя элементы хоррора. Вариантов выбора нет. Просто позвольте сюжету развиваться, погружаясь всё глубже в пустоту.",
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/line88 2.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/line88 (1).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/line88 (2).png" ,
+                },
+                 { "id":"wtdwafef",
+                  "title": "What to do with a four-eared fox",
+                  "genre" : "Повседневность, Милота",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/wtd.png",
+                  "description" : "После обычного похода в парк вы находите странную девушку-лисичку. Она ранена, и у неё четыре уха! Вы обрабатываете её раны, и она просит вас забрать её с собой домой. Так что же делать с четырёхвостой лисичкой? «Что делать с четырёхвостой лисичкой» — это визуальная новелла в жанре slice-of-life, в которой вы помогаете маленькой лесной лисичке узнать больше о мире людей.",
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/Frame 1 (1).png  " ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/Frame 1 (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/Frame 1.png" ,
+                },
+                 { "id":"icc",
+                  "title": "the ice cream culprit",
+                  "genre" : "Повседневность, Милота",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/ice.png",
+                  "description" : "Сообщите своей девушке (или нет) о преступнике, который съел ее мороженое.",
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/ice cream 0.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/ice cream55.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/icew cream1.png" ,
+                },
+                { "id":"gb",
+                  "title": "galaxy ballerina",
+                  "genre" : "Фэнтези, Милота, Короткий рассказ",
+                  "year": 2024,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/gb.png",
+                  "description" : "Одноминутная история о том, как мы делили сцену, вдохновленная классическими детскими книжками с картинками.",
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/galaxy b(4).png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/galaxy b (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/galaxy b (3).png" ,
+                },
+
+
+                  { "id":"mush",
+                  "title": "Mushroom Oasis",
+                  "genre" : "Романтика, Инди , Атмосфера",
+                  "year": 2023,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/mush.png",
+                  "description" : "Ваша любимая кошка пропала несколько дней назад. Вы подозреваете, что она убежала в лес через дорогу, что является ее дурной привычкой всякий раз, когда ей удается просунуть лапу в дверь за вашей спиной. Никто не знал, что лес опасен, на самом деле он был довольно мирным, но то, что она была домашним животным, все равно заставляло вас беспокоиться. Хотя вы сами были домашним животным, в итоге вы забрели гораздо глубже, чем намеревались. К счастью для вас, добрый (но странно выглядящий) незнакомец наткнулся на вас до того, как случилось что-то плохое.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/mushhh2.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/mush7.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/mush4.png" ,
+                  "lang" : "Есть перевод на Русский язык!"
+                },
+                  
+                { "id":"red",
+                  "title": "The red house on the third hill of mataperros",
+                  "genre" : "Weirdcore, Сюрреализм",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/red.png",
+                  "description" : "Притча в жанре стоп-кадра о том, как найти старого друга в Сети. Игра о сообществах и их отсутствии.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/red1.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/red2.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/red3.png" ,
+                },
+             
+                { "id":"lilies",
+                  "title": "lilies in the graveyard",
+                  "genre" : "Психологический хоррор, Повседневность",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/lilies.png",
+                  "description" : "Вам поручено найти и устранить аномалию. Это задание приведет вас в маленькую отдаленную деревушку.  Затем на кладбище вы встретите странную девушку, разбрасывающую пепел, которая представится как Лили.  Вы заключаете сделку.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/lilies (2).png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/lilies (3).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/lilies (1).png" ,
+                },
+                
+                
+                { "id":"WARM LIKE FRESH",
+                  "title": "WARM LIKE FRESH",
+                  "genre" : "Симулятор свидания",
+                  "year": 2025,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/warm.png",
+                  "description" : "Любовь - это всего лишь еще одна периферийная игра... пока машина не научится любить тебя. WARM LIKE FLESH - это короткая 2D-ролевая игра с элементами визуальной новеллы и клик энд поинт (наведи и нажми) . Вы - техник, которому поручено обслуживать разумный гуманоидный компьютер по имени КАТОД, который имеет склонность бормотать загадочные и кокетливые фразы. Ваша работа? Поддерживайте жизнь Катода, заново подключая их изношенные нервные пути (провода), одновременно просматривая их тревожно интимные комментарии.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/warm.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/warm1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/warm2.png" ,
+                },
+                
+                
+                {  "id": 'gentle', 
+                  "title": 'Gentle Fall',
+                  "genre": 'Романтика, Триллер',
+                  "year": 2023,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/gentle.png",
+                  "description" : "Увлекательный визуальный роман о болезненных, уродливых чувствах. Настраиваемый сюжет и 1 любовный роман, который адаптируется в соответствии с вашими предпочтениями. Нейтральный в гендерном отношении сюжет. Прошел почти год с тех пор, как вы получили ученую степень, и с тех пор жизнь стала однообразной. Ты учишься, ешь, спишь и еще не завел друзей. Все кажется мучительно обыденным... за исключением ощущения, что за тобой постоянно наблюдают. Боль никогда не пройдет... но мы все еще можем расти, несмотря на это. Однажды боль поразит вас снова, но на этот раз вы будете готовы к тому, что это произойдет.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/gentle.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/gentle1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/gentle2.png" ,
+                },
+                
+                 
+                 { "id": 'TODAY', 
+                "title": "Today I'll be Hero",
+                 "genre": "Фэнтези, Инди",
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/today.png",
+                  "description" : "Стать героем - это не то решение, которое ты принял только сегодня... верно?  Ты ведь знаешь, что быть героем - это не только то, кто спасет принцессу, не так ли?  Итак, вот как все будет происходить. Ты собираешься спасти ПРИНЦЕССУ! Ты станешь ГЕРОЕМ! Ты создашь наследие, о котором всегда мечтал! С твоими друзьями на твоей стороне нет ничего, абсолютно ничего, чего бы ты не смог сделать. Это верно! Сегодня ты будешь ГЕРОЕМ!", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/today.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/today1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/today2.png" ,
+                },
+             
+                 
+
+                { "id": 'SI', 
+                  "title": 'Sweet Instincts',
+                  "genre": 'Хоррор',
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/sweet in.png",
+                  "description" : "Беа, к своему большому разочарованию, проводит лето со своим отцом. Однажды она просыпается со странным желанием и голосом в голове.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/sweet.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/sweet1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/sweet2.png" ,
+                },
+             
+                 { "id": 'shutdown', 
+                 "title": 'shutdown',
+                 "genre": 'Психологический хоррор',
+                  "year": 2023,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/shut head.png",
+                  "description" : "Поиграйте в куклу на операционном столе. У вас есть считанные минуты до того, как вас разоберут на части и вы умрете... Но кто это там ковыряется в ваших заклепках?", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/shutdown (1).png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/shutdown (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/shutdown (3).png" ,
+                },
+
+                { "id": 'tom', 
+                "title": 'Tales Of Misteria',
+                 "genre": 'Мистика, Комедия, Хоррор',
+                  "year": 2021,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/tom1.jpg",
+                  "description" : "Когда Кира и Амэ возвращаются в свой родной город Мистерия на каникулы в колледже, им не требуется много времени, чтобы услышать об убийстве местного жителя. Кира не хочет иметь ничего общего с этим делом, но когда они узнают, что обстоятельства убийства странным образом напоминают сказку, которую они когда-то читали в детстве... ну, очевидно, в конечном итоге они оказываются втянутыми в эту чертову тайну...!", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/tom.jpg" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/tom1.jpg" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/tom2.jpg" ,
+                },
+
+                { "id": 'wbd', 
+                 "title": 'We Belong Dead',
+                 "genre": 'Хоррор, Романтика',
+                  "year": 2025,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/wbd.png",
+                  "description" : "Прошло слишком много времени с тех пор, как ты умерла. Тебя не было так долго. Но это не так. Я верну тебя, любовь моя. Чего бы это ни стоило.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/wbd.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/wbd1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/wbd2.png" ,
+                },
+
+
+                { "id": 'freddy', 
+                "title": 'Freddy Fazbears Dating Simulator',
+                 "genre": 'Симулятор Свидания',
+                  "year": 2023,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/head freddy.png",
+                  "description" : "Встречайся с Фредди в этой экстремальной визуальной новелле / RPG-файтинге.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/freddy (1).png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/freddy (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/freddy (3).png" ,
+                },
+
+                { "id": 'Tadc DatSim', 
+                 "title": 'The Amazing Digital Dating Simulator',
+                 "genre": 'Симулятор Свидания',
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/tadc.png",
+                  "description" : "The Amazing Digital Dating Simulator - это фан-игра в стиле визуальной новеллы для популярного шоу Glitch 'Удивительный цифровой цирк'. Действие происходит в мире аниме-приключений, и вы проведете 5 дней, помогая компашке подготовиться к предстоящему фестивалю культуры. В игре есть 5 романтических персонажей: Помни, Рагата, Гэнгл, Зубл и Джекс! Фанаты Кейна и Королера, не волнуйтесь! В настоящее время разрабатываются маршруты Кейна и Королера, которые будут добавлены в игру позднее. Эта игра была создана мной и моим мужем и не является КАНОНИЧЕСКОЙ. Спасибо, что поиграли!", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/atdc.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/atdc1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/atdc2.png" ,
+                  "lang" : "Есть перевод на Русский язык!"
+                },
+
+                { "id": 'iwtmsb', 
+                "title": 'I Want To Make Something Beatiful',
+                 "genre": 'Короткий рассказ',
+                  "year": 2024,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/iwtmsb.png",
+                  "description" : "Созданная всего за одну неделю, I Want To Make Something Beautiful - это короткая игра о художнике, который отчаянно хочет творить, но боится, что не сможет создать ничего ценного.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/iwtmsb1.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/iwtmsb2.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/iwtmsb.png" ,
+                },
+
+                
+                { "id": 'eulogy', 
+                "title": 'eulogy',
+                 "genre": 'Приключение',
+                  "year": 2026,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/eulogy.png",
+                  "description" : "Eulogy - это увлекательная сюжетная игра, которая проведет вас по ностальгическому дому детства. Исследуйте воспоминания человека, который в последние минуты жизни оставил все позади. Проживите жизнь сестры Эшли, когда она будет перебирать различные предметы в своем доме, которые напоминают ей о ее дорогой сестре.", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/eulogy.png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/eulogy1.png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/eulogy2.png" ,
+                },
+                
+                { "id": 'myo', 
+                "title": 'Myosotis',
+                 "genre": 'Детектив, Мистика, Романтика, Хоррор, Сюрреализм',
+                  "year": 2025,
+                  "cover" : "картинке нн (моих сыгранных игр)/head/myo.png",
+                  "description" : "Ты погибла от рук своего (теперь уже бывшего) парня, Итана. Охваченная смесью горя, растерянности и ярости, ты решаешь провести свою загробную жизнь, преследуя его в надежде получить ответ от своего убийцы. Однако у вас появляется еще больше вопросов, когда вы понимаете, что вы не единственный призрак, который преследует его повсюду...", 
+                  "frame" : "картинке нн (моих сыгранных игр)/frames1/myo (1).png" ,
+                  "frame1" : "картинке нн (моих сыгранных игр)/frames1/myo (2).png" ,
+                  "frame2" : "картинке нн (моих сыгранных игр)/frames1/myo (3).png" ,
+                },
+
+                
+                ];
+
+                        
+        
+        const params = new URLSearchParams(window.location.search);
+        const novelId = params.get('id');
+
+        
+        const novel = novels.find(n => n.id === novelId);
+
+        if (novel) {
+            document.getElementById('n-title').textContent = novel.title;
+            document.getElementById('n-genre').textContent = novel.genre;
+            document.getElementById('n-year').textContent = novel.year;
+               document.getElementById('n-lang').textContent = novel.lang;
+               document.getElementById('n-desc').textContent = novel.description;
+            document.getElementById('n-cover').src = novel.cover;
+            document.getElementById('n-frame').src = novel.frame;
+            document.getElementById('n-frame1').src = novel.frame1;
+            document.getElementById('n-frame2').src = novel.frame2;
+            document.title = novel.title + " — Vlvnel";
+        } else {
+            document.getElementById('content-area').innerHTML = 
+                "<h2>Новелла не найдена :(</h2><p>Проверь ссылку или <a href='catalog.html' class='back-btn'>вернись в каталог</a></p>";
+        }
+</script>
+
+        
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer class="footer mt-5 py-3" >
+        <div class="container">
+                 <div class="footer-content">
+                  <div class="footer-left">
+                    <a href="oproekte.html">О проекте</a>
+                        <span class="separator">|</span>
+                    <a href="contacts.html">Контакты</a>
+                 </div>
+                  <div class="footer-right">
+                     Vivnel © 2026
+                   </div>
+                    </div>
+                </div>
+ </footer>
+
+</body>
+</html>

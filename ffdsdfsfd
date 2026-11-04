@@ -1,0 +1,454 @@
+ <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="catalog.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Каталог
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="genres.html">Жанры</a></li>
+            <li><a class="dropdown-item" href="genres.html">Романтика</a></li>
+            <li><a class="dropdown-item" href="genres.html">Комедия </a></li>
+            <li><a class="dropdown-item" href="genres.html">Драма</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+/// catalog!
+              <a href="cartchka noveli.html?id=zato">
+  <a href="cartchka noveli.html?id=zato">
+  <div class="cartochki-card" data-genre="мистика">
+    <img src="картинке нн (моих сыгранных игр)/1dBIos.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Z.A.T.O</h5>
+    </div>
+  </div>
+</a>  
+
+<a href="cartchka noveli.html?id=meat-girl">
+  <div class="cartochki-card" data-genre="хоррор">
+    <img src="картинке нн (моих сыгранных игр)/dFjemd.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">meat girl</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=Mistrick">
+  <div class="cartochki-card" data-genre="приключение">
+    <img src="картинке нн (моих сыгранных игр)/HaYsLL.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Mistrick</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=WitchsBound">
+  <div class="cartochki-card" data-genre="триллер">
+    <img src="картинке нн (моих сыгранных игр)/iHHotf.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Witch's Bound</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=SVSATO">
+  <div class="cartochki-card" data-genre="психологический_хоррор">
+    <img src="картинке нн (моих сыгранных игр)/kAW0mj.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Supervisor Sato! Visual Novel</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=FreakCircus">
+  <div class="cartochki-card" data-genre="хоррор">
+    <img src="картинке нн (моих сыгранных игр)/LC5bpl.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Freak Circus</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=PinePoint">
+  <div class="cartochki-card" data-genre="сюрреализм">
+    <img src="картинке нн (моих сыгранных игр)/Oo7JKY.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Pine Point: Imsomniac</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=KYC">
+  <div class="cartochki-card" data-genre="психологический_хоррор">
+    <img src="картинке нн (моих сыгранных игр)/5AI9GW.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Keeping You Close</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=hikeback">
+  <div class="cartochki-card" data-genre="психологический_хоррор">
+    <img src="картинке нн (моих сыгранных игр)/hikeb head.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">HIKEBACK</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=Line 88">
+  <div class="cartochki-card" data-genre="мистика">
+    <img src="картинке нн (моих сыгранных игр)/line 88.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Line 88</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=wtdwafef">
+  <div class="cartochki-card" data-genre="повседневность">
+    <img src="картинке нн (моих сыгранных игр)/M6tXgJ.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">What to do with a four-eared fox</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=icc">
+  <div class="cartochki-card" data-genre="повседневность">
+    <img src="картинке нн (моих сыгранных игр)/ice cream.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">The ice cream culprit</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=gb">
+  <div class="cartochki-card" data-genre="романтика">
+    <img src="картинке нн (моих сыгранных игр)/gb.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">galaxy ballerina</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=lilies">
+  <div class="cartochki-card" data-genre="психологический_хоррор">
+    <img src="картинке нн (моих сыгранных игр)/graveyard.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Lilies in the graveyard</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=mush">
+  <div class="cartochki-card" data-genre="романтика">
+    <img src="картинке нн (моих сыгранных игр)/mushroom.gif" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Mushroom oasis</h5>
+    </div>
+  </div>
+</a>
+
+<a href="cartchka noveli.html?id=red">
+  <div class="cartochki-card" data-genre="сюрреализм">
+    <img src="картинке нн (моих сыгранных игр)/the red house.jpg" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">the red house on the <br>third hill of mataperros</h5>
+    </div>
+  </div>
+</a>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivnel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vis_1.0.css">
+     <link rel="icon" href="icon.png" type="image/png">
+
+</head>
+<body style="background-image: url('bg.png'); 
+    background-repeat: no-repeat;            
+    background-size: cover; 
+    background-position: center center; ">
+ 
+
+     <nav class="navbar navbar-expand-lg" style="background-color: #AFFF3E;">
+  <div class="container-fluid">
+    <img src="logo.png" style="width: 55px; height: 55px ; margin-right: 0px; ">
+    <a class="navbar-brand" href="visnel_1.0.html">Vivnel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a class="nav-link active" aria-current="page" href="visnel_1.0.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        
+        
+        </li>
+      </ul>
+      <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-login">Вход</a>
+                <a href="register.html" class="btn btn-register">Регистрация</a>
+            </div>
+    </div>
+  </div>
+</nav>
+    
+<div id="container">
+
+    <h2 class="sections-title"><img src="frame1 (1).png"> Каталог<img src="Frame1.png" style="height: 100px;width: 100px;"></h2>
+  <div class="input-group mb-3">
+
+ 
+
+  <button class="btn btn-outline-secondary dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Жанры</button>
+  <ul class="dropdown-menu">
+  <li><a href="catalog.html?genre=all" class="dropdown-item" data-genre="all">Все жанры</a></li>
+  <li><a href="catalog.html?genre=романтика" class="dropdown-item" data-genre="романтика">Романтика</a></li>
+  <li><a href="catalog.html?genre=симулятор_свидания" class="dropdown-item" data-genre="симулятор_свидания">Симулятор Свидания</a></li> 
+  <li><a href="catalog.html?genre=психологический_хоррор" class="dropdown-item" data-genre="психологический_хоррор">Психологический Хоррор</a></li>
+  <li><a href="catalog.html?genre=хоррор" class="dropdown-item" data-genre="хоррор">Хоррор</a></li> 
+  <li><a href="catalog.html?genre=триллер" class="dropdown-item" data-genre="триллер">Триллер</a></li> 
+  <li><a href="catalog.html?genre=сюрреализм" class="dropdown-item" data-genre="сюрреализм">Сюрреализм</a></li> 
+  <li><a href="catalog.html?genre=приключение" class="dropdown-item" data-genre="приключение">Приключение</a></li>
+  <li><a href="catalog.html?genre=повседневность" class="dropdown-item" data-genre="повседневность">Повседневность</a></li>
+  <li><a href="catalog.html?genre=мистика" class="dropdown-item" data-genre="мистика">Мистика</a></li>
+  <li><a href="catalog.html?genre=фэнтези" class="dropdown-item" data-genre="фэнтези">Фэнтези</a></li>
+  
+</ul>
+
+
+
+
+
+
+
+  <input id="searchInput" class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+    <button id="searchBtn" class="btn btn-outline-success" type="button">Поиск</button>
+</div>
+
+
+    <div class="d-flex align-content-around flex-wrap" style="margin-top: 50px; margin-left: 50px;">
+    <div class="card-group" id="catalogContainer">
+
+  
+
+  </div>
+
+  </div>
+>
+
+    <!-- ПАГИНАЦИЯ -->
+    <div class="pagination-wrapper" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center;">
+        <nav aria-label="Пагинация">
+            <ul class="pagination">
+                <li class="page-item" id="prevBtn">
+                    <a class="page-link" href="#">Предыдущая</a>
+                </li>
+                <!-- Номера страниц будут генерироваться или обновляться JS, но оставим базовые -->
+                <li class="page-item"><a class="page-link page-num" href="catalog.html?page=1">1</a></li>
+                <li class="page-item"><a class="page-link page-num" href="catalog.html?page=2">2</a></li>
+                <li class="page-item"><a class="page-link page-num" href="catalog.html?page=3">3</a></li>
+                <li class="page-item" id="nextBtn">
+                    <a class="page-link" href="#">Следующая</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  
+ </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // БАЗА ДАННЫХ НОВЕЛЛ!!111
+    const novelsDB = [
+        { id: 'zato', title: 'Z.A.T.O', genre: 'мистика', img: 'картинке нн (моих сыгранных игр)/1dBIos.png' },
+        { id: 'meat-girl', title: 'meat girl', genre: 'хоррор', img: 'картинке нн (моих сыгранных игр)/dFjemd.png' },
+        { id: 'Mistrick', title: 'Mistrick', genre: 'приключение', img: 'картинке нн (моих сыгранных игр)/HaYsLL.png' },
+        { id: 'WitchsBound', title: "Witch's Bound", genre: 'триллер', img: 'картинке нн (моих сыгранных игр)/iHHotf.png' },
+        { id: 'SVSATO', title: 'Supervisor Sato! Visual Novel', genre: 'психологический_хоррор', img: 'картинке нн (моих сыгранных игр)/kAW0mj.png' },
+        { id: 'FreakCircus', title: 'Freak Circus', genre: 'хоррор', img: 'картинке нн (моих сыгранных игр)/LC5bpl.png' },
+        { id: 'PinePoint', title: 'Pine Point: Imsomniac', genre: 'сюрреализм', img: 'картинке нн (моих сыгранных игр)/Oo7JKY.png' },
+        { id: 'KYC', title: 'Keeping You Close', genre: 'психологический_хоррор', img: 'картинке нн (моих сыгранных игр)/5AI9GW.png' },
+        { id: 'hikeback', title: 'HIKEBACK', genre: 'психологический_хоррор', img: 'картинке нн (моих сыгранных игр)/hikeb head.png' },
+        { id: 'Line 88', title: 'Line 88', genre: 'мистика', img: 'картинке нн (моих сыгранных игр)/line 88.png' },
+        { id: 'wtdwafef', title: 'What to do with a four-eared fox', genre: 'повседневность', img: 'картинке нн (моих сыгранных игр)/M6tXgJ.png' },
+        { id: 'icc', title: 'The ice cream culprit', genre: 'повседневность', img: 'картинке нн (моих сыгранных игр)/ice cream.png' },
+        { id: 'gb', title: 'galaxy ballerina', genre: 'романтика', img: 'картинке нн (моих сыгранных игр)/gb.png' },
+        { id: 'lilies', title: 'Lilies in the graveyard', genre: 'психологический_хоррор', img: 'картинке нн (моих сыгранных игр)/graveyard.png' },
+        { id: 'mush', title: 'Mushroom oasis', genre: 'романтика', img: 'картинке нн (моих сыгранных игр)/mushroom.gif' },
+        { id: 'red', title: 'the red house on the third hill..', genre: 'сюрреализм', img: 'картинке нн (моих сыгранных игр)/the red house.jpg' },
+           { id: 'WARM LIKE FRESH', title: 'WARM LIKE FRESH', genre: 'симулятор_свидания', img: 'картинке нн (моих сыгранных игр)/warm.png' },
+           { id: 'gentle', title: 'Gentle Fall', genre: 'романтика', img: 'картинке нн (моих сыгранных игр)/GENTLE FALL.png' },
+          { id: 'TODAY', title: "Today I'll Be Hero", genre: 'фэнтези', img: 'картинке нн (моих сыгранных игр)/TODAY HERO.png' },
+          { id: 'SI', title: 'Sweet Instincts', genre: 'хоррор', img: 'картинке нн (моих сыгранных игр)/SI.png' },
+          { id: 'shutdown', title: 'shutdown', genre: 'психологический_хоррор', img: 'картинке нн (моих сыгранных игр)/shutdown.png' },
+           { id: 'tom', title: 'Tales Of Misteria', genre: 'мистика', img: 'картинке нн (моих сыгранных игр)/tom.png' },
+            { id: 'wbd', title: 'We Belong Dead', genre: 'хоррор_романтика', img: 'картинке нн (моих сыгранных игр)/WBD.png' },
+            { id: 'freddy', title: 'Freddy Fazbear Dating Simulator', genre: 'симулятор_свидания', img: 'картинке нн (моих сыгранных игр)/FREDDY DATSIM.png' },
+            { id: 'eulogy', title: 'eulogy', genre: 'приключение', img: 'картинке нн (моих сыгранных игр)/eulogy.png' },
+            { id: 'iwtmsb', title: 'I Want To Make Something..', genre: 'short', img: 'картинке нн (моих сыгранных игр)/iwtsb.png' },
+          { id: 'Tadc DatSim', title: 'The Amazing Digital DatSim', genre: 'симулятор_свидания', img: 'картинке нн (моих сыгранных игр)/TADC DATSIM.png' },
+          { id: 'myo', title: 'Myosotis', genre: 'детектив', img: 'картинке нн (моих сыгранных игр)/myosotis.png' },
+
+   
+      ];
+
+    // 2. Читаем номер страницы из URL (как в cartchka noveli.html)
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentPage = parseInt(urlParams.get('page')) || 1;
+    const itemsPerPage = 16;
+
+    // 3. Очищаем контейнер и рисуем НОВЫЕ карточки для этой страницы
+    const container = document.getElementById('catalogContainer');
+    container.innerHTML = ''; // Полностью стираем старое содержимое!
+
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageItems = novelsDB.slice(startIndex, endIndex); // Берем только нужные 8 штук
+
+    if (pageItems.length === 0) {
+        container.innerHTML = '<div style="width:100%; text-align:center; padding:50px; color:#d8b4e2;">На этой странице пока нет новелл.</div>';
+    } else {
+        // Генерируем HTML для каждой карточки и вставляем в контейнер
+        pageItems.forEach(novel => {
+            const cardHTML = `
+                <a href="cartchka noveli.html?id=${novel.id}">
+                    <div class="cartochki-card" data-genre="${novel.genre}">
+                        <img src="${novel.img}" class="cartochki-image" alt="${novel.title}" onerror="this.src='icon.png'">
+                        <div class="cartochki-body">
+                            <h5 class="cartochki-text">${novel.title}</h5>
+                        </div>
+                    </div>
+                </a>
+            `;
+            container.innerHTML += cardHTML;
+        });
+    }
+
+    // 4. Обновляем кнопки пагинации (подсвечиваем активную, прячем лишние)
+    const totalPages = Math.ceil(novelsDB.length / itemsPerPage);
+    
+    document.querySelectorAll('.page-num').forEach(btn => {
+        const btnPage = parseInt(new URLSearchParams(btn.href.split('?')[1]).get('page'));
+        const parentLi = btn.parentElement;
+        
+        if (btnPage === currentPage) {
+            parentLi.classList.add('active');
+        } else {
+            parentLi.classList.remove('active');
+        }
+        
+        // Если страниц меньше, чем кнопок (например, всего 2 страницы), прячем кнопку "3"
+        if (btnPage > totalPages) {
+            parentLi.style.display = 'none';
+        } else {
+            parentLi.style.display = 'block';
+        }
+    });
+
+    // Кнопки Назад/Вперед
+    const prevBtn = document.querySelector('#prevBtn a');
+    const nextBtn = document.querySelector('#nextBtn a');
+    
+    if (currentPage <= 1) {
+        prevBtn.parentElement.classList.add('disabled');
+        prevBtn.removeAttribute('href');
+    } else {
+        prevBtn.parentElement.classList.remove('disabled');
+        prevBtn.href = `catalog.html?page=${currentPage - 1}`;
+    }
+
+    if (currentPage >= totalPages) {
+        nextBtn.parentElement.classList.add('disabled');
+        nextBtn.removeAttribute('href');
+    } else {
+        nextBtn.parentElement.classList.remove('disabled');
+        nextBtn.href = `catalog.html?page=${currentPage + 1}`;
+    }
+});
+</script>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <a href="oproekte.html">О проекте</a>
+            <span class="separator">|</span>
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="footer-right">
+            Vivnel © 2026
+        </div>
+    </div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const cards = document.querySelectorAll('.cartochki-card');
+    const genreLinks = document.querySelectorAll('.dropdown-item[data-genre]');
+
+    // 1. ПОИСК
+    function doSearch() {
+        const query = searchInput.value.toLowerCase().trim();
+        cards.forEach(card => {
+            const titleElement = card.querySelector('.cartochki-text');
+            const title = titleElement ? titleElement.textContent.toLowerCase() : '';
+            // Скрываем родительский элемент <a>, чтобы не было пустых отступов
+            if (title.includes(query)) {
+                card.parentElement.style.display = 'block';
+            } else {
+                card.parentElement.style.display = 'none';
+            }
+        });
+    }
+    
+    if (searchInput && searchBtn) {
+        searchBtn.addEventListener('click', doSearch);
+        searchInput.addEventListener('input', doSearch);
+    }
+
+    // 2. ФИЛЬТР ЖАНРОВ
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedGenre = urlParams.get('genre') || 'all';
+
+    // Подсветка выбранного жанра в меню
+    genreLinks.forEach(link => {
+        if (link.dataset.genre === selectedGenre) {
+            link.classList.add('active');
+            link.style.fontWeight = 'bold';
+            link.style.backgroundColor = '#e9ecef';
+        } else {
+            link.classList.remove('active');
+            link.style.fontWeight = 'normal';
+            link.style.backgroundColor = 'transparent';
+        }
+    });
+
+    // Применение фильтра к карточкам
+    cards.forEach(card => {
+        const cardGenre = card.dataset.genre ? card.dataset.genre.toLowerCase() : '';
+        const parentLink = card.parentElement; // Это тег <a>
+
+        if (selectedGenre === 'all' || selectedGenre === '' || cardGenre === selectedGenre) {
+            parentLink.style.display = 'block';
+        } else {
+            parentLink.style.display = 'none';
+        }
+    });
+});
+</script>
+
+</body>
+</html>

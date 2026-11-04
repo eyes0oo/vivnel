@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivnel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vis_1.0.css">
+    <link rel="icon" href="icon.png" type="image/png">
+
+</head>
+<body style="background-image: url('bg.png'); 
+    background-repeat: no-repeat;            
+    background-size: cover; 
+    background-position: center center; ">
+ 
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #AFFF3E;">
+  <div class="container-fluid">
+    <img src="logo.png" style="width: 55px; height: 55px ; margin-right: 0px; ">
+    <a class="navbar-brand" href="visnel_1.0.html">Vivnel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="d-flex" role="search" onsubmit="return false;">
+    <input class="form-control me-2 site-search-input" type="search" placeholder="Поиск" aria-label="Поиск">
+    <button class="btn btn-outline-success site-search-btn" type="button">Поиск</button>
+</form>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a class="nav-link active" aria-current="page" href="visnel_1.0.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        
+        
+        </li>
+      </ul>
+      <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-login">Вход</a>
+                <a href="register.html" class="btn btn-register">Регистрация</a>
+            </div>
+    </div>
+  </div>
+</nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div id="container">
+  
+    <h2 class="section-title" style=" margin-left: 210px;">Популярные новеллы</h2>
+    <div class="main-layout">
+        
+        <div class="carousel-section">
+            <div id="carouselMain" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+           
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="DDLC.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Doki Doki Literature Club</h5>
+                            <p>Милая новелла с тёмными секретами</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="ACE.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Ace Attorney</h5>
+                            <p>Стань адвокатом и раскрой правду</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="BAD END THEATER.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Bad End Theater</h5>
+                            <p>Исследуй все плохие концовки</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="STEIN GATES .png" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Steins Gate</h5>
+                            <p>Машина времени и цена истины</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="HIGURASHI.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <h5>Higurashi When They Cry</h5>
+                            <p>Циклы безумия в деревне Хинамидзава</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+          <h2 class="sections-title">Фильтр</h2>
+<div class="search-wrapper" style="position: relative; max-width: 900px;">
+    <input type="text" id="smartSearch" class="form-control" placeholder="Поиск новеллы..." autocomplete="off">
+    <div id="searchDropdown" class="search-dropdown"></div>
+</div>
+</form>
+        </div>
+
+        <div class="news-section">
+            <div class="news-card">
+                <img src="Time.jpg" class="news-image" alt="">
+                <div class="news-body">
+                    <h3>Новости</h3>
+                    <p class="news-text">Добро пожаловать в Вивнел! Надеюсь вам понравиться тут (≧◡≦).</p>
+                    <div class="news-list">
+                        <div class="news-item">Новые новеллы добавлены</div>
+                        <div class="news-item">Обновление каталога</div>
+                        <div class="news-item">Скоро: коллекция романтики</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="d-flex align-content-around flex-wrap" style="margin-top: 50px; margin-left: 50px;">
+   <div class="card-group">  
+     <a href="cartchka noveli.html?id=zato">
+  <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/1dBIos.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Z.A.T.O</h5>
+      <p class="cartochki-text "></p>
+    </div>
+  </div>
+</a> 
+
+ <a href="cartchka noveli.html?id=meat-girl">
+    <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/dFjemd.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">meat girl</h5>
+      <p class="cartochki-text "></p>
+    </div>
+    </div>
+  </a>
+
+
+<a href="cartchka noveli.html?id=Mistrick">
+   <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/HaYsLL.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Mistrick</h5>
+      <p class="cartochki-text "></p>
+    </div>
+   </div>
+</a>
+
+<a href="cartchka noveli.html?id=WitchsBound">
+  <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/iHHotf.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Witch's Bound</h5>
+      <p class="cartochki-text "></p>
+    </div>
+    </div>
+    </a> 
+
+  <a href="cartchka noveli.html?id=SVSATO">
+    <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/kAW0mj.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Supervisor Sato! Visual Novel</h5>
+      <p class="cartochki-text "></p>
+    </div>
+  </div>
+</a>
+
+
+  <a href="cartchka noveli.html?id=FreakCircus">
+   <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/LC5bpl.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Freak Circus</h5>
+      <p class="cartochki-text "></p>
+    </div>
+  </div>
+  </a>
+
+  <a href="cartchka noveli.html?id=PinePoint">
+  <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/Oo7JKY.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Pine Point: Imsomniac</h5>
+      <p class="cartochki-text "></p>
+    </div>
+    </div>
+  </a>
+
+  <a href="cartchka noveli.html?id=KYC">
+  <div class="cartochki-card">
+    <img src="картинке нн (моих сыгранных игр)/5AI9GW.png" class="cartochki-image" alt="...">
+    <div class="cartochki-body">
+      <h5 class="cartochki-text">Keeping You Close</h5>
+      <p class="cartochki-text "></p>
+    </div>
+  </div>
+  </a>
+
+</div>
+</div>
+</div>
+
+ <footer class="footer mt-5 py-3" >
+        <div class="container">
+           
+                 <div class="footer-content">
+                  <div class="footer-left">
+                    <a href="oproekte.html">О проекте</a>
+                        <span class="separator">|</span>
+                    <a href="contacts.html">Контакты</a>
+                 </div>
+                  <div class="footer-right">
+                     Vivnel © 2026
+                   </div>
+                    </div>
+                </div>
+ </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInputs = document.querySelectorAll('.site-search-input');
+    const searchBtns = document.querySelectorAll('.site-search-btn');
+    const cards = document.querySelectorAll('.cartochki-card');
+
+    function performSearch() {
+        // Берем текст из любого поля поиска
+        const query = searchInputs[0].value.toLowerCase().trim();
+
+        cards.forEach(card => {
+            // Ищем название внутри карточки (класс .cartochki-text)
+            const titleElement = card.querySelector('.cartochki-text');
+            const title = titleElement ? titleElement.textContent.toLowerCase() : '';
+            
+            // Находим родительскую ссылку <a>, чтобы скрыть/показать всю карточку целиком
+            const parentLink = card.closest('a');
+
+            if (title.includes(query)) {
+                if (parentLink) parentLink.style.display = 'block';
+                else card.style.display = 'block';
+            } else {
+                if (parentLink) parentLink.style.display = 'none';
+                else card.style.display = 'none';
+            }
+        });
+    }
+
+    // 1. Реакция на ввод текста (живой поиск)
+    searchInputs.forEach(input => {
+        input.addEventListener('input', function() {
+            // Синхронизируем оба поля поиска
+            searchInputs.forEach(otherInput => {
+                if (otherInput !== input) otherInput.value = this.value;
+            });
+            performSearch();
+        });
+    });
+
+    // 2. Реакция на клик по кнопке "Поиск"
+    searchBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault(); // Запрещаем перезагрузку страницы
+            performSearch();
+        });
+    });
+});
+</script>
+<script>
+
+const novelsDB = [
+    { id: 'zato', title: 'Z.A.T.O', genre: 'Мистика', img: 'картинке нн (моих сыгранных игр)//1dBIos.png' },
+    { id: 'meat-girl', title: 'meat girl', genre: 'Хоррор', img: 'картинке нн (моих сыгранных игр)//dFjemd.png' },
+    { id: 'Mistrick', title: 'Mistrick', genre: 'Приключение', img: 'картинке нн (моих сыгранных игр)//HaYsLL.png' },
+    { id: 'WitchsBound', title: "Witch's Bound", genre: 'Триллер', img: 'картинке нн (моих сыгранных игр)//iHHotf.png' },
+    { id: 'SVSATO', title: 'Supervisor Sato! Visual Novel', genre: 'Психологический хоррор', img: 'картинке нн (моих сыгранных игр)//kAW0mj.png' },
+    { id: 'FreakCircus', title: 'Freak Circus', genre: 'Хоррор', img: 'картинке нн (моих сыгранных игр)//LC5bpl.png' },
+    { id: 'PinePoint', title: 'Pine Point: Imsomniac', genre: 'Сюрреализм', img: 'картинке нн (моих сыгранных игр)//Oo7JKY.png' },
+    { id: 'KYC', title: 'Keeping You Close', genre: 'Психологический хоррор', img: 'картинке нн (моих сыгранных игр)//5AI9GW.png' },
+    { id: 'hikeback', title: 'HIKEBACK', genre: 'Психологический хоррор', img: 'картинке нн (моих сыгранных игр)//hikeb head.png' },
+    { id: 'Line 88', title: 'Line 88', genre: 'Мистика', img: 'картинке нн (моих сыгранных игр)//line 88.png' },
+    { id: 'wtdwafef', title: 'What to do with a four-eared fox', genre: 'Повседневность', img: 'картинке нн (моих сыгранных игр)//M6tXgJ.png' },
+    { id: 'icc', title: 'The ice cream culprit', genre: 'Повседневность', img: 'картинке нн (моих сыгранных игр)//ice cream.png' },
+    { id: 'gb', title: 'galaxy ballerina', genre: 'Романтика', img: 'картинке нн (моих сыгранных игр)//gb.png' },
+    { id: 'lilies', title: 'Lilies in the graveyard', genre: 'Психологический хоррор', img: 'картинке нн (моих сыгранных игр)//graveyard.png' },
+    { id: 'mush', title: 'Mushroom oasis', genre: 'Романтика', img: 'картинке нн (моих сыгранных игр)//mushroom.gif' },
+    { id: 'red', title: 'the red house on the third hill of mataperros', genre: 'Хоррор', img: 'картинке нн (моих сыгранных игр)//the red house.jpg' }
+];
+
+const searchInput = document.getElementById('smartSearch');
+const dropdown = document.getElementById('searchDropdown');
+
+if (searchInput && dropdown) {
+    searchInput.addEventListener('input', function() {
+        const query = this.value.trim().toLowerCase();
+        dropdown.innerHTML = '';
+        
+        if (query.length === 0) {
+            dropdown.classList.remove('show');
+            return;
+        }
+        
+        // Фильтруем новеллы
+        const filtered = novelsDB.filter(novel => 
+            novel.title.toLowerCase().includes(query)
+        );
+        
+        if (filtered.length === 0) {
+            dropdown.innerHTML = '<div class="no-results">Ничего не найдено</div>';
+        } else {
+            filtered.forEach(novel => {
+                const item = document.createElement('div');
+                item.className = 'search-item';
+                item.innerHTML = `
+                    <img src="${novel.img}" alt="${novel.title}" onerror="this.src='icon.png'">
+                    <div class="search-item-info">
+                        <h5>${novel.title}</h5>
+                        <p>${novel.genre}</p>
+                    </div>
+                `;
+                item.addEventListener('click', function() {
+                    window.location.href = `cartchka noveli.html?id=${novel.id}`;
+                });
+                dropdown.appendChild(item);
+            });
+        }
+        
+        dropdown.classList.add('show');
+    });
+    
+    // Закрыть dropdown при клике вне его
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+            dropdown.classList.remove('show');
+        }
+    });
+}
+</script>
+</body>
+</html>
