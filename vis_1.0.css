@@ -767,7 +767,35 @@ footer {
 @media (max-width: 768px) {
     
     /* === ОБЩИЕ ПРАВИЛА === */
+     /* Карточки растягиваем на всю ширину экрана телефона */
+    #catalogContainer > a {
+        width: 100%;
+        max-width: 350px; /* Ограничим максимальную ширину, чтобы на планшете не было гигантским */
+    }
+
+    /* Поле поиска и кнопку "Жанры" ставим друг под другом */
+    .input-group {
+        flex-wrap: wrap !important;
+        gap: 10px;
+    }
+
+    .input-group .dropdown-toggle,
+    .input-group .form-control,
+    .input-group .btn {
+        width: 100% !important; /* Растягиваем на всю ширину */
+        margin-bottom: 0;
+        border-radius: 5px !important; /* Возвращаем скругление, т.к. группа разбилась */
+    }
+
+    /* Немного уменьшаем заголовок */
+    .sections-title {
+        font-size: 1.5rem;
+    }
     
+    .sections-title img {
+        height: 30px !important;
+        width: auto !important;
+    }
     /* Запрет горизонтальной прокрутки */
     body, html {
         overflow-x: hidden !important;
