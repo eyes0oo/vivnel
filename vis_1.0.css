@@ -158,20 +158,24 @@ body {
     object-fit: cover;
     width: 100%;
 }
+.carousel-section1 {
+    flex: 0 0 65%;
+    max-width: 65%;
+}
 
-/* На ПК */
 .carousel-section1 .carousel {
-    width: 100% !important;
-    height: 450px !important; /* ОДИНАКОВАЯ высота для всех скриншотов */
-    border: 3px solid #C197C5 ;/* Чёрный фон, если картинка не заполняет блок */
-    overflow: hidden !important;
+    width: 970px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #C197C5;
 }
 
 .carousel-section1 .carousel-inner img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important; /* Обрезает лишнее, но заполняет весь блок */
+    height: 500px; 
+    object-fit: cover;
+    width: 100%;
 }
+
 
 .news-section {
 
