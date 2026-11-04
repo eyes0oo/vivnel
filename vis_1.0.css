@@ -891,23 +891,25 @@ footer {
     }
 
     /* === КАРУСЕЛЬ СКРИНШОТОВ === */
-    .carousel-section1 {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin-top: 20px !important;
-    }
+    * Карусель скриншотов на странице новеллы */
+.carousel-section1 {
+    width: 100%;
+    margin-top: 30px;
+}
 
-    .carousel-section1 .carousel {
-        width: 50% !important;
-        max-width: 50% !important;
-        height: 75% !important;
-    }
+.carousel-section1 .carousel {
+    width: 100%;
+    height: 450px; /* Фиксированная высота на ПК */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #C197C5;
+}
 
-    .carousel-section1 .carousel-inner img {
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover !important;
-    }
+.carousel-section1 .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняет весь блок без черных полос */
+}
 
     /* Футер */
     .footer-content {
