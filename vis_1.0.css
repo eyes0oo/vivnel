@@ -805,3 +805,242 @@ footer {
         width: auto !important;
     }
 }
+
+
+
+
+
+@media (max-width: 760px) {
+
+
+#container {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-width: 4px;
+    padding: 10px;
+    height: auto !important;
+    min-height: auto !important;
+}
+
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding: 8px 10px !important;
+}
+
+
+.btn-login,
+.btn-register {
+    padding: 4px 12px;
+    font-size: 13px;
+}
+
+
+.input-group {
+    flex-wrap: wrap !important;
+    gap: 8px;
+}
+
+.input-group .dropdown-toggle,
+.input-group .form-control,
+.input-group .btn {
+    width: 100% !important;
+    border-radius: 6px !important;
+    margin-bottom: 0;
+}
+
+
+.main-layout {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.carousel-section,
+.carousel-section1 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.carousel-section1 .carousel {
+    width: 100% !important;
+}
+
+.carousel-section .carousel-inner img,
+.carousel-section1 .carousel-inner img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    padding: 20px 15px 25px;
+}
+
+.carousel-caption h5 {
+    font-size: 18px;
+}
+
+.carousel-caption p {
+    font-size: 13px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 12px;
+}
+
+.news-section {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    margin-top: 0 !important;
+}
+
+.news-body h3 {
+    font-size: 18px;
+}
+
+.news-text,
+.news-item {
+    font-size: 13px;
+}
+
+.cards-grid {
+    flex: 0 0 100% !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+    margin-top: 0 !important;
+}
+
+.cartochki-image {
+    height: 180px;
+}
+
+.cartochki-card h4 {
+    font-size: 16px;
+}
+
+.cartochki-card p {
+    font-size: 12px;
+}
+
+.section-title,
+.sections-title {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.sections-title img {
+    height: 28px !important;
+    width: auto !important;
+}
+
+#content-area {
+    padding: 10px;
+}
+
+.cover-img {
+    height: 200px;
+    border-width: 3px;
+    margin-bottom: 15px;
+}
+
+#n-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.meta {
+    font-size: 14px;
+}
+
+#n-genre,
+#n-year {
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.desc {
+    font-size: 14px;
+    padding: 12px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.info {
+    padding: 15px;
+}
+
+.back-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination .page-item .page-link {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+.footer {
+    padding: 15px;
+}
+
+.footer-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.footer-left a {
+    font-size: 14px;
+}
+
+.footer-right {
+    font-size: 12px;
+}
+
+footer {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    min-width: 180px;
+}
+
+.dropdown-item {
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+/* Поисковый дропдаун */
+.search-dropdown {
+    max-height: 250px;
+}
+
+.search-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.search-item-info h5 {
+    font-size: 13px;
+}
+
+.search-item-info p {
+    font-size: 11px;
+}
+
+body {
+    padding-bottom: 120px;
+}
+}
